@@ -1,0 +1,24 @@
+{
+  "name": "incomeapp-api",
+  "version": "0.0.1",
+  "description": "Api from app income app",
+  "main": "index.js",
+  "author": "Renan Oliveira <renanlido@yahoo.com.br>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
