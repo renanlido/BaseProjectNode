@@ -1,7 +1,3 @@
-class User {
-  constructor() {
-    
-  }
-}
+const User = (name: string) => name;
 
-export {User}
+export { User };
